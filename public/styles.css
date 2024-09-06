@@ -1,0 +1,67 @@
+html, body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin-bottom: 0;
+}
+
+.carousel-inner {
+    height: calc(100vh - 56px); /* Full height minus navbar height */
+}
+
+.carousel-item img {
+    max-height: 100vh; /* Limit the maximum height of the images */
+    width: 100%; /* Ensure the image spans the width of the container */
+    object-fit: cover; /* Prevent distortion and make the image fill the container */
+}
+
+/* Style for the View button */
+.carousel-caption .btn-view {
+    margin-top: 20px;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border: none;
+}
+.carousel-caption{
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-radius: 8px; /* Rounded corners for the card */
+    padding: 20px; /* Space inside the card */
+    color: black; /* Black text color */
+    text-align: center; /* Center text inside the card */
+    position: absolute; /* Positioning to ensure the caption is on top of the image */
+    bottom: 100px; /* Move caption higher from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80%; /* Adjust width to fit your needs */
+    max-width: 700px; /* Max width to ensure the card doesn’t become too wide */
+}
+
+.carousel-caption .btn-view:hover {
+    background-color: rgba(0, 123, 255, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ensure items are centered vertically */
+    height: calc(100vh - 56px); /* Adjust height to account for navbar */
+    padding: 20px;
+    margin-top: 20px; /* Space from the navbar */
+}
+
+.card {
+    width: 50rem; /* Adjust the width as needed */
+    margin: auto; /* Center horizontally within container */
+}
+
+.card-body {
+    margin-top: 0; /* Ensure no extra margin is added */
+}
