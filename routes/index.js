@@ -9,4 +9,9 @@ router.get('/about', (req, res) => {
     res.render('about', { title: 'About This Blog' });
 });
 
+router.get('/viewbora', (req, res) => {
+    res.render('viewbora', { title: 'Boracay Island White Beach' });
+});
+
+
 module.exports = router;

@@ -10,6 +10,9 @@ html, body {
 
 nav {
     margin-bottom: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(0,0,0,0.15);
 }
 
 .carousel-inner {
@@ -64,4 +67,41 @@ nav {
 
 .card-body {
     margin-top: 0; /* Ensure no extra margin is added */
+}
+
+
+.containers {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cards {
+    max-width: 900px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards-body {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.cards-body img {
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 140px;
+}
+
+.cards-title {
+    margin-top: 0;
+}
+
+.cards-text {
+    text-align: justify;
 }
