@@ -9,7 +9,7 @@ html, body {
 }
 
 nav {
-    background-color: #ffffff; /* Ensures the background is blue */
+    background-color: #ffffff;
     margin-bottom: 0;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
                 -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
@@ -47,12 +47,12 @@ nav {
     padding: 20px; 
     color: black; 
     text-align: center; 
-    position: absolute; /* Positioning to ensure the caption is on top of the image */
-    bottom: 100px; /* Move caption higher from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    width: 80%; /* Adjust width to fit your needs */
-    max-width: 700px; /* Max width to ensure the card doesn’t become too wide */
+    position: absolute; 
+    bottom: 100px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 80%; 
+    max-width: 700px; 
 }
 
 .carousel-caption .btn-view:hover {
@@ -64,20 +64,20 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Ensure items are centered vertically */
-    height: calc(100vh - 56px); /* Adjust height to account for navbar */
+    flex-direction: column; 
+    height: calc(100vh - 56px); 
     padding: 20px;
-    margin-top: 20px; /* Space from the navbar */
+    margin-top: 20px; 
 }
 
 .card {
-    width: 50rem; /* Adjust the width as needed */
-    margin: auto; /* Center horizontally within container */
+    width: 50rem; 
+    margin: auto; 
     background-color: #f5f6ee;
 }
 
 .card-body {
-    margin-top: 0; /* Ensure no extra margin is added */
+    margin-top: 0; 
 }
 
 
