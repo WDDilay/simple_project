@@ -10,10 +10,12 @@ html, body {
 
 nav {
     margin-bottom: 0;
-    background: rgb(255, 255, 255);
+    background: blue;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
                 -6px -6px 10px -1px rgba(0,0,0,0.15);
 }
+
+
 
 .carousel-inner {
     height: calc(100vh - 56px); /* Full height minus navbar height */
@@ -28,7 +30,7 @@ nav {
 /* Style for the View button */
 .carousel-caption .btn-view {
     margin-top: 20px;
-    background-color: rgba(0, 123, 255, 0.8);
+    background-color:#327D81;
     color: white;
     border: none;
 }
@@ -47,7 +49,7 @@ nav {
 }
 
 .carousel-caption .btn-view:hover {
-    background-color: rgba(0, 123, 255, 1);
+    background-color:#13294B;
 }
 
 .container {
