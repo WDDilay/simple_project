@@ -9,37 +9,44 @@ html, body {
 }
 
 nav {
+    background-color: #ffffff; /* Ensures the background is blue */
     margin-bottom: 0;
-    background: blue;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-                -6px -6px 10px -1px rgba(0,0,0,0.15);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
+.navbar-brand{
+    margin-left: 4rem;
+}
+.navbar-nav{
+    margin-right: 5em;
+}
 
 
 .carousel-inner {
-    height: calc(100vh - 56px); /* Full height minus navbar height */
+    height: calc(100vh - 56px); 
 }
 
 .carousel-item img {
-    max-height: 100vh; /* Limit the maximum height of the images */
-    width: 100%; /* Ensure the image spans the width of the container */
-    object-fit: cover; /* Prevent distortion and make the image fill the container */
+    max-height: 100vh; 
+    width: 100%; 
+    object-fit: cover; 
 }
 
-/* Style for the View button */
+
 .carousel-caption .btn-view {
     margin-top: 20px;
-    background-color:#327D81;
-    color: white;
-    border: none;
+    color: #327d81;
+    border: 1px solid;
+    border-color: #327d81;
+    width: 100px;
 }
 .carousel-caption{
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
-    border-radius: 8px; /* Rounded corners for the card */
-    padding: 20px; /* Space inside the card */
-    color: black; /* Black text color */
-    text-align: center; /* Center text inside the card */
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px; 
+    padding: 20px; 
+    color: black; 
+    text-align: center; 
     position: absolute; /* Positioning to ensure the caption is on top of the image */
     bottom: 100px; /* Move caption higher from the bottom */
     left: 50%; /* Center horizontally */
@@ -49,7 +56,8 @@ nav {
 }
 
 .carousel-caption .btn-view:hover {
-    background-color:#13294B;
+    background-color:#327d81;
+    color: white;
 }
 
 .container {
@@ -65,6 +73,7 @@ nav {
 .card {
     width: 50rem; /* Adjust the width as needed */
     margin: auto; /* Center horizontally within container */
+    background-color: #f5f6ee;
 }
 
 .card-body {
@@ -83,6 +92,7 @@ nav {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f5f6ee;
 }
 
 .cards-body {
